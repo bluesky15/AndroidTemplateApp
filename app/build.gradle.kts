@@ -66,6 +66,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     testImplementation(libs.kotlinx.coroutines.test)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.androidx.navigation.compose)
     kapt (libs.hilt.compiler)
 }
 
